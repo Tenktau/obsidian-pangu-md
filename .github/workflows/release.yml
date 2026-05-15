@@ -3,7 +3,10 @@ name: Release Obsidian Plugin
 on:
   push:
     tags:
-      - "*"
+      - "v*"
+
+permissions:
+  contents: write
 
 env:
   PLUGIN_NAME: obsidian-pangu4md
@@ -34,14 +37,18 @@ jobs:
           cp -r dist/* \
             ${{ env.PLUGIN_NAME }}
 
-          zip -r ${{ env.PLUGIN_NAME }}.zip \
+          zip -r \
+            ${{ env.PLUGIN_NAME }}-${{ github.ref_name }}.zip \
             ${{ env.PLUGIN_NAME }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
+
         with:
+          body_path: CHANGELOG.md
+
           files: |
             dist/main.js
             dist/manifest.json
             dist/versions.json
-            ${{ env.PLUGIN_NAME }}.zip
+            ${{ env.PLUGIN_NAME }}-${{ github.ref_name }}.zip
