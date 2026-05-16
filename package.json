@@ -1,8 +1,8 @@
 {
-  "name": "obsidian-pangu4md",
+  "name": "obsidian-pangu-md",
   "version": "0.0.1",
   "description": "Obsidian plugin for Chinese-English spacing.",
-  "main": "dist/main.js",
+  "main": "main.js",
   "scripts": {
     "clean": "rimraf dist",
     "dev": "run-p dev:*",

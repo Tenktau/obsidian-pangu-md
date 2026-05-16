@@ -1,4 +1,6 @@
-# obsidian-pangu4md
+# obsidian-pangu-md
+
+PanguMD
 
 一款用于 Markdown 文档，在中英文之间自动添加空格的轻量化 Obsidian 插件。
 
@@ -36,14 +38,14 @@ Hello 世界
 ## 使用方法
 
 - 默认快捷键： `Ctrl/Cmd + Shift + S`
-- 或使用命令面板搜索 `Pangu4MD`
+- 或使用命令面板搜索 `PanguMD`
 
 ## 安装
 
 ### 手动安装
 
 1. 前往 Release 页面下载最新版本；
-2. 解压到：`/.obsidian/plugins/obsidian-pangu4md`；
+2. 解压到：`/.obsidian/plugins/obsidian-pangu-md`；
 3. 在 Obsidian 第三方插件页面中启用插件。
 
 ## 技术栈

@@ -7,9 +7,9 @@ import {
 
 import { formatMarkdown } from "./formatter";
 
-export default class Pangu4MDPlugin extends Plugin {
+export default class PanguMDPlugin extends Plugin {
   async onload() {
-    console.log("Loading Pangu4MD");
+    console.log("Loading PanguMD");
 
     this.addCommand({
       id: "format-chinese-spacing",
@@ -29,8 +29,8 @@ export default class Pangu4MDPlugin extends Plugin {
   }
 
   onunload() {
-    new Notice("Pangu4MD onload() called");
-    console.log("Unloading Pangu4MD");
+    new Notice("PanguMD onload() called");
+    console.log("Unloading PanguMD");
   }
 
   private formatEditor(editor: Editor) {
