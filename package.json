@@ -1,6 +1,6 @@
 {
-  "name": "obsidian-pangu-md",
-  "version": "0.0.1",
+  "name": "pangu-md",
+  "version": "0.1.0",
   "description": "Obsidian plugin for Chinese-English spacing.",
   "main": "main.js",
   "scripts": {

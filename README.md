@@ -1,8 +1,6 @@
-# obsidian-pangu-md
+# pangu-md
 
-PanguMD
-
-一款用于 Markdown 文档，在中英文之间自动添加空格的轻量化 Obsidian 插件。
+PanguMD,一款用于 Markdown 文档，在中英文之间自动添加空格的轻量化 Obsidian 插件。
 
 ## 特性
 
@@ -45,7 +43,7 @@ Hello 世界
 ### 手动安装
 
 1. 前往 Release 页面下载最新版本；
-2. 解压到：`/.obsidian/plugins/obsidian-pangu-md`；
+2. 解压到：`/.obsidian/plugins/pangu-md`；
 3. 在 Obsidian 第三方插件页面中启用插件。
 
 ## 技术栈

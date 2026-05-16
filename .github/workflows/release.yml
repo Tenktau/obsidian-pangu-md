@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  PLUGIN_NAME: obsidian-pangu-md
+  PLUGIN_NAME: pangu-md
 
 jobs:
   release:
